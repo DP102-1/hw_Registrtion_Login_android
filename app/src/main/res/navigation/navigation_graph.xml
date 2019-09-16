@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/registrationLoginFirstFragment">
+    <fragment
+        android:id="@+id/registrationLoginFirstFragment"
+        android:name="com.example.hw_registrtion_login_android.RegistrationLoginFirstFragment"
+        android:label="fragment_registration_login_first"
+        tools:layout="@layout/fragment_registration_login_first" >
+        <action
+            android:id="@+id/action_registrationLoginFirstFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+        <action
+            android:id="@+id/action_registrationLoginFirstFragment_to_threePageFragment"
+            app:destination="@id/threePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.hw_registrtion_login_android.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/threePageFragment"
+        android:name="com.example.hw_registrtion_login_android.ThreePageFragment"
+        android:label="fragment_three_page"
+        tools:layout="@layout/fragment_three_page" />
+</navigation>

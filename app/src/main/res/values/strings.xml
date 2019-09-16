@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">hw_Registrtion_Login_android</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="etName">User Name</string>
+    <string name="etPassword">User Password</string>
+    <string name="etEnterNewPasspord">Enter a New Password</string>
+    <string name="etConfirmNewPassword">Confirm the New Password</string>
+    <string name="etEnterConfirmationCode">Enter Confirmation Code</string>
+</resources>
